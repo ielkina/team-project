@@ -1,1 +1,38 @@
-<header>Header</header>
+<header class="header">
+  <div class="container">
+    <nav class="header__navbar navbar">
+      <a class="navbar__logo logo" href="#">
+        <img class="logo__img" src="#" alt="Logo">
+      </a>
+      <ul class="navbar__menu menu">
+        <li class="menu__item">
+          <a class="menu__link" href="#">Home</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#">Favorite</a>
+        </li>
+      </ul>
+      <ul class="navbar__inputs input">
+        <li class="input__search search">
+          <form class="search__form">
+            <button class="search__btn" type="reset"></button>
+            <label class="sr-only" for="search">search on the site</label>
+            <input
+              class="search__input"
+              type="text"
+              id="search"
+              placeholder="Search"
+            >
+            <span class="search__span"></span>
+          </form>
+        </li>
+        <li class="input__theme theme">
+          <p class="theme__light">Light</p>
+          <label class="sr-only" for="theme__checkbox"></label>
+          <input type="checkbox" name="theme" id="theme">
+          <p class="theme__dark">Dark</p>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
