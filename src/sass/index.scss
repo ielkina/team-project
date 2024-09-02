@@ -1,2 +1,14 @@
-@import './common';
-@import './example';
+@import './utils/variables';
+@import './utils/mixin';
+@import './utils/placeholders';
+//
+@import './base/reset';
+@import './base/common';
+@import './base/container';
+//
+@import './layout/header';
+@import './layout/hero';
+@import './layout/main';
+@import './layout/modal-cocktail';
+@import './layout/modal-ingredient';
+@import './layout/footer';
